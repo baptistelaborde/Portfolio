@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleC.css">
+    <title>Développeur - Baptiste Laborde</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="title">
+            <h1>Baptiste Laborde</h1>
+            <h1>Portfolio</h1>
+        </div>
+        <h1 class="hamburger">≡</h1>
+    </header>
+    <div class="splitter"></div>
+    <div id="main">
+        <h1> Me Contacter </h1>
+        <div id="content">
+            <img src="img/carte-france.png" alt="Carte de la France">
+            <form>
+                <p>
+                    Civilité*
+                    <input type="radio" name="Civilité" required>
+                    <span>Mr</span>
+                    <input type="radio" name="Civilité" required>
+                    <span>Mme</span>
+                </p>
+                <p>Prénom* <input type="text" name="Prénom" autocomplete="off" required></p>
+                <p>Nom* <input type="text" name="Nom" autocomplete="off" required></p>
+                <p>Téléphone* <input type="tel" pattern="[0-9]{10}" name=" Tel" autocomplete="on" required></p>
+                <p>E-mail* <input type="email" name="Email" autocomplete="on" required></p>
+                <p>Message* <textarea name="Message" required></textarea></p>
+                <p class="required_fields">*Champs obligatoires</p>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+    <div id="home">
+        <div class="splitter"></div>
+        <div>
+            <a href="index.html">Retourner à l'accueil</a>
+        </div>
+    </div>
+</body>
+
+</html>
