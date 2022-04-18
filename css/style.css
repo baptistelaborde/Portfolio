@@ -6,6 +6,8 @@
 
 body {
     font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -72,6 +74,7 @@ h1.hamburger {
 }
 
 .about {
+    margin-bottom: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,8 +99,6 @@ h1.hamburger {
 
 /* Projects */
 #projects {
-    width: 100%;
-    height: 210vh;
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -179,7 +180,7 @@ a {
     color: black;
 }
 
-.bnb-img img {
+.lowatem-img img {
     width: 100%;
 }
 
@@ -191,6 +192,7 @@ a {
     box-shadow: 0 0px 10px -2px black;
 }
 
+/* Contact */
 #contact div:nth-of-type(2) {
     height: 10vh;
     background: #00171F;
@@ -206,14 +208,14 @@ a {
 
 @media screen and (min-width: 1440px) {
     .circular-image {
-        width:350px;
-        height:350px;
+        width: 350px;
+        height: 350px;
         margin-top: 3.5%;
         margin-bottom: 3.5%;
     }
 
     .about {
-        width:50vw;
+        width: 50vw;
         font-size: 22px;
     }
 
@@ -245,10 +247,10 @@ a {
     }
 
     .pong {
-        margin:0;
+        margin: 0;
         margin-top: 5%;
         width: 80%;
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
@@ -257,7 +259,7 @@ a {
     }
 
     .pong-img img {
-        height:100%;
+        height: 100%;
     }
 
     .pong .tag {
@@ -267,10 +269,10 @@ a {
     }
 
     .beer-and-bear {
-        margin:0;
+        margin: 0;
         margin-top: 5%;
         width: 80%;
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
@@ -279,7 +281,7 @@ a {
     }
 
     .bnb-img img {
-        height:100%;
+        height: 100%;
     }
 
     .beer-and-bear .tag {
@@ -289,25 +291,25 @@ a {
     }
 
     .lowatem {
-        margin:0;
+        margin: 0;
         margin-top: 5%;
+        margin-bottom: 5%;
         width: 80%;
-        height:27%;
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
     .lowatem-img {
-        width: 55%;
+        width: 105%;
     }
 
     .lowatem-img img {
-        height:100%;
+        height: 100%;
     }
 
     .lowatem .tag {
         font-size: larger;
-        width: 41%;
+        width: 40%;
         margin-top: 5%;
     }
 
