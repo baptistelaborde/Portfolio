@@ -51,7 +51,7 @@ h1.hamburger {
 /* Front page */
 #main {
     width: 100%;
-    height: 87vh;
+    height: 600px;
     background-color: #003459;
     display: flex;
     flex-direction: column;
@@ -207,6 +207,10 @@ a {
 }
 
 @media screen and (min-width: 1440px) {
+    #main {
+        height: 771px;
+    }
+
     .circular-image {
         width: 350px;
         height: 350px;
