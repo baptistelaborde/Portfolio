@@ -206,6 +206,116 @@ a {
     font-size: 125%;
 }
 
+
+@media screen and (min-width: 768px) {
+    #main {
+        height: 950px;
+    }
+
+    .circular-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about {
+        font-size: x-large;
+    }
+
+    .tag {
+        font-size: 20px;
+    }
+
+    .project-title {
+        font-size: 50px;
+    }
+
+    .project-desc {
+        font-size: x-large;
+    }
+
+    .see-more {
+        font-size: 25px;
+        width: 197px;
+    }
+
+    .pong .tag {
+        width: 145px;
+    }
+
+    .beer-and-bear .tag {
+        width: 135px;
+    }
+
+    .lowatem .tag {
+        width: 295px;
+    }
+
+    #contact a {
+        font-size: 150%;
+    }
+}
+
+@media screen and (min-width: 810px) {
+    .about {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    #main {
+        height: 1050px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #main {
+        height: 1200px;
+    }
+
+    .circular-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about {
+        font-size: 35px;
+    }
+
+    .tag {
+        font-size: 25px;
+    }
+
+    .project-title {
+        font-size: 60px;
+    }
+
+    .project-desc {
+        font-size: xx-large;
+    }
+
+    .see-more {
+        font-size: 35px;
+        width: 278px;
+    }
+
+    .pong .tag {
+        width: 182px;
+    }
+
+    .beer-and-bear .tag {
+        width: 170px;
+    }
+
+    .lowatem .tag {
+        width: 370px;
+    }
+
+    #contact a {
+        font-size: 200%;
+    }
+}
+
+/* TODO: 1270 px for 15 inch */
 @media screen and (min-width: 1440px) {
     #main {
         height: 771px;
@@ -317,4 +427,7 @@ a {
         margin-top: 5%;
     }
 
+    #contact a {
+        font-size: x-large;
+    }
 }
