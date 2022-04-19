@@ -206,8 +206,127 @@ a {
     font-size: 125%;
 }
 
+@media screen and (min-width: 667px) and (min-height: 375px) {
+    #main {
+        height: 360px;
+    }
 
-@media screen and (min-width: 768px) {
+    .circular-image {
+        width: 150px;
+        height: 150px;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+    }
+
+    .about {
+        font-size: 9px;
+    }
+
+    .about p:nth-of-type(1) {
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .about p:nth-of-type(2) {
+        margin-bottom: 3%;
+    }
+
+    .tag {
+        font-size: 9px;
+        margin-top: 5%;
+    }
+
+    .project-title {
+        font-size: 18px;
+        margin-bottom: 3%;
+    }
+
+    .project-desc {
+        margin-top: 3%;
+        margin-bottom: 0%;
+        font-size: 9px;
+        width: 60%;
+    }
+
+    .see-more {
+        font-size: 10px;
+        width: 78px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .pong {
+        margin: 0;
+        margin-top: 5%;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pong-img {
+        width: 150%;
+    }
+
+    .pong-img img {
+        height: 100%;
+    }
+
+    .pong .tag {
+        width: 65px;
+    }
+
+    .beer-and-bear {
+        margin: 0;
+        margin-top: 5%;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bnb-img {
+        width: 86%;
+    }
+
+    .bnb-img img {
+        height: 100%;
+    }
+
+    .beer-and-bear .tag {
+        width: 60px;
+    }
+
+    .lowatem {
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lowatem-img {
+        width: 142%;
+    }
+
+    .lowatem-img img {
+        height: 100%;
+    }
+
+    .lowatem .tag {
+        width: 135px;
+    }
+
+    #contact div:nth-of-type(2) {
+        height: 15vh;
+    }
+
+    #contact a {
+        font-size: smaller;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
     #main {
         height: 950px;
     }
@@ -255,19 +374,81 @@ a {
     }
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 810px) and (min-height: 1080px) {
     .about {
         font-size: 28px;
     }
 }
 
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 810px) and (min-height: 375px) {
+    .tag {
+        font-size: 10px;
+    }
+
+    .project-title {
+        font-size: 22px;
+    }
+
+    .project-desc {
+        font-size: 10px;
+    }
+
+    .see-more {
+        font-size: 13px;
+        width: 101px;
+    }
+
+    .pong .tag {
+        width: 75px;
+    }
+
+    .beer-and-bear .tag {
+        width: 67px;
+    }
+
+    .lowatem .tag {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 820px) and (min-height: 1180px) {
     #main {
         height: 1050px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 896px) and (min-height: 414px) {
+    .tag {
+        font-size: 12px;
+    }
+
+    .project-title {
+        font-size: 25px;
+    }
+
+    .project-desc {
+        font-size: 12px;
+    }
+
+    .see-more {
+        font-size: 15px;
+        width: 115px;
+    }
+
+    .pong .tag {
+        width: 87px;
+    }
+
+    .beer-and-bear .tag {
+        width: 80px;
+    }
+
+    .lowatem .tag {
+        width: 175px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
     #main {
         height: 1200px;
     }
@@ -425,6 +606,10 @@ a {
         font-size: larger;
         width: 40%;
         margin-top: 5%;
+    }
+
+    #contact div:nth-of-type(2) {
+        height: 10vh;
     }
 
     #contact a {
