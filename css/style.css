@@ -206,7 +206,8 @@ a {
     font-size: 125%;
 }
 
-@media screen and (min-width: 667px) and (min-height: 375px) {
+/* iPhone SE landscape */
+@media screen and (min-width: 667px) and (orientation: landscape) {
     #main {
         height: 360px;
     }
@@ -325,8 +326,76 @@ a {
     }
 }
 
+/* iPhone X/XS landscape */
+@media screen and (min-width: 810px) and (orientation: landscape) {
+    .tag {
+        font-size: 10px;
+    }
 
-@media screen and (min-width: 768px) and (min-height: 1024px) {
+    .project-title {
+        font-size: 22px;
+    }
+
+    .project-desc {
+        font-size: 10px;
+    }
+
+    .see-more {
+        font-size: 13px;
+        width: 101px;
+    }
+
+    .pong .tag {
+        width: 75px;
+    }
+
+    .beer-and-bear .tag {
+        width: 67px;
+    }
+
+    .lowatem .tag {
+        width: 150px;
+    }
+}
+
+/* iPhone XR landscape */
+@media screen and (min-width: 896px) and (orientation: landscape) {
+    #main {
+        height: 370px;
+    }
+
+    .tag {
+        font-size: 12px;
+    }
+
+    .project-title {
+        font-size: 25px;
+    }
+
+    .project-desc {
+        font-size: 12px;
+    }
+
+    .see-more {
+        font-size: 15px;
+        width: 115px;
+    }
+
+    .pong .tag {
+        width: 87px;
+    }
+
+    .beer-and-bear .tag {
+        width: 80px;
+    }
+
+    .lowatem .tag {
+        width: 175px;
+    }
+}
+
+/* iPad Mini portrait */
+@media screen and (min-width: 768px) and (orientation: portrait) {
     #main {
         height: 950px;
     }
@@ -374,81 +443,78 @@ a {
     }
 }
 
-@media screen and (min-width: 810px) and (min-height: 1080px) {
+/* iPad Mini landscape */
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    #main {
+        height: 665px;
+    }
+
+    .circular-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about {
+        font-size: x-large;
+    }
+
+    .tag {
+        font-size: 15px;
+    }
+
+    .project-title {
+        font-size: 28px;
+    }
+
+    .project-desc {
+        font-size: 15px;
+    }
+
+    .see-more {
+        font-size: 18px;
+        width: 142px;
+    }
+
+    .pong .tag {
+        width: 108px;
+    }
+
+    .beer-and-bear .tag {
+        width: 102px;
+    }
+
+    .lowatem .tag {
+        width: 210px;
+    }
+
+    #contact a {
+        font-size: x-large;
+    }
+}
+
+/* iPad portrait */
+@media screen and (min-width: 810px) and (orientation: portrait) {
     .about {
         font-size: 28px;
     }
 }
 
-@media screen and (min-width: 810px) and (min-height: 375px) {
-    .tag {
-        font-size: 10px;
-    }
-
-    .project-title {
-        font-size: 22px;
-    }
-
-    .project-desc {
-        font-size: 10px;
-    }
-
-    .see-more {
-        font-size: 13px;
-        width: 101px;
-    }
-
-    .pong .tag {
-        width: 75px;
-    }
-
-    .beer-and-bear .tag {
-        width: 67px;
-    }
-
-    .lowatem .tag {
-        width: 150px;
+/* iPad landscape */
+@media screen and (min-width: 810px) and (orientation: landscape) {
+    #main {
+        height: 725px;
     }
 }
 
-@media screen and (min-width: 820px) and (min-height: 1180px) {
+/* iPad Air portrait */
+@media screen and (min-width: 820px) and (orientation: portrait) {
     #main {
         height: 1050px;
     }
 }
 
-@media screen and (min-width: 896px) and (min-height: 414px) {
-    .tag {
-        font-size: 12px;
-    }
-
-    .project-title {
-        font-size: 25px;
-    }
-
-    .project-desc {
-        font-size: 12px;
-    }
-
-    .see-more {
-        font-size: 15px;
-        width: 115px;
-    }
-
-    .pong .tag {
-        width: 87px;
-    }
-
-    .beer-and-bear .tag {
-        width: 80px;
-    }
-
-    .lowatem .tag {
-        width: 175px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (min-height: 1366px) {
+/* iPad Pro 12.9-inch portrait */
+@media screen and (min-width: 1024px) and (orientation: portrait) {
     #main {
         height: 1200px;
     }
@@ -496,8 +562,58 @@ a {
     }
 }
 
+/* iPad Pro 12.9-inch landscape */
+@media screen and (min-width: 1366px) and (orientation: landscape) {
+    #main {
+        height: 915px;
+    }
+
+    .circular-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about {
+        font-size: 30px;
+    }
+
+    .tag {
+        font-size: 20px;
+    }
+
+    .project-title {
+        font-size: 35px;
+    }
+
+    .project-desc {
+        font-size: 20px;
+    }
+
+    .see-more {
+        font-size: 23px;
+        width: 185px;
+    }
+
+    .pong .tag {
+        width: 150px;
+    }
+
+    .beer-and-bear .tag {
+        width: 138px;
+    }
+
+    .lowatem .tag {
+        width: 300px;
+    }
+
+    #contact a {
+        font-size: xx-large;
+    }
+}
+
 /* TODO: 1270 px for 15 inch */
-@media screen and (min-width: 1440px) {
+/* Computer */
+@media screen and (min-width: 1440px) and (orientation: landscape) {
     #main {
         height: 771px;
     }
