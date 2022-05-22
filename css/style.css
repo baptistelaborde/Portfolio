@@ -358,7 +358,7 @@ a {
     }
 }
 
-/* iPhone XR landscape */
+/* iPhone 11 landscape */
 @media screen and (min-width: 896px) and (orientation: landscape) {
     main {
         height: 370px;
